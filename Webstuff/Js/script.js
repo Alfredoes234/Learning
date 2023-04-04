@@ -121,11 +121,22 @@ while (h < 10) {
 loops infinitely if h is less thn 10
 */
 
+class car {
+    constructor(name, year) {
+        this.name = name
+        this.year = year
+    }
+}
+
+const mycar = new car("Audi", 2019)
+console.log(mycar)
+
 document.getElementById("smeno").innerHTML = p
 document.getElementById("hell").innerHTML = hello()
 document.getElementById("demo").innerHTML = hero()
 document.getElementById("plen").innerHTML = milk.flavour
 document.getElementById("stra").innerHTML = cars.toString()
 document.getElementById("date").innerHTML = dat
+document.getElementById("mca").innerHTML = mycar
 // ^Searches for elements which have the specified id tag and replace them with the defined
 // option
