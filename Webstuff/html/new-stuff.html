@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Cool stuff 
+    TransformStream
+    Import maps
+    Josn imports
+    Transform Props
+    Trig functions
+    css initial letter
+    Viewport units lvh, svw
+    Css focus visable
+    Inert
+    View transitions api
+    Animation timeline
+    -->
+
+
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <style>
+        html {
+            background-color: color-mix(in srgb, red, blue);
+        }
+    </style>
+
+    <script>
+        const arr = ['1','2','3','4']
+        let ar = arr.at[-1] //<-- This now works
+        const spoon = {name: 'jeff', weapons: { main:'pain', alt:'pole' } }
+        console.log(spoon)
+        const woon = structuredClone(spoon)
+        console.log(spoon)
+
+    </script>
+
+    <body>
+        <dialog id="d">
+            WOWOWO
+        </dialog>
+        <button onclick="d.showModal()">open dialogue</button>
+
+
+        <!-- This requires experimental flag to work on the browser -->
+        <button popovertarget="popin">open</button>
+
+        <div id="popin" popover>
+            <p>Feature pops</p>
+        </div>
+
+
+
+    </body>
+
+
+</html>
