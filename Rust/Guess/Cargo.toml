@@ -1,5 +1,5 @@
 [package]
-name = "rust"
+name = "learnin"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,7 +7,3 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
-
-[[bin]]
-name = "main"
-path = "main.rs"
