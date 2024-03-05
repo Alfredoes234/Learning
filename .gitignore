@@ -1,6 +1,5 @@
 # Removes rusts massive target directory from being included
-Rust/*/target
-
+**/target
 
 # remove env files
 **/.env
