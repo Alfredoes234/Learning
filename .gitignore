@@ -1,9 +1,9 @@
 # Removes rusts massive target directory from being included
 Rust/*/target
-Rust/backend/.env
 
-# local env files
-# **/**/**.env
+
+# remove env files
+**/.env
 
 # Zig build files
 zig/zig-cache
