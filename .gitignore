@@ -7,3 +7,6 @@
 # Zig build files
 zig/*/zig-cache
 zig/*/zig-out
+
+# Python Env folders
+Python/*/env
