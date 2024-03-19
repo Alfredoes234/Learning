@@ -5,5 +5,5 @@
 **/.env
 
 # Zig build files
-zig/zig-cache
-zig/zig-out
+zig/*/zig-cache
+zig/*/zig-out
