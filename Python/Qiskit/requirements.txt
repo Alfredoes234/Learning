@@ -47,7 +47,7 @@ python-dateutil==2.8.2
 pytz==2024.1
 pyzmq==25.1.2
 qiskit==1.0.1
-qiskit-ibm-runtime==0.20.0
+qiskit-ibm-runtime==0.21.2
 requests==2.31.0
 requests-ntlm==1.2.0
 rustworkx==0.14.1
