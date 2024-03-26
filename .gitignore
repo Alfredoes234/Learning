@@ -4,9 +4,10 @@
 # remove env files
 **/.env
 
-# Zig build files
+# Zig 
 zig/*/zig-cache
 zig/*/zig-out
+zig/ziglings.org
 
 # Python Env folders
 Python/*/env
